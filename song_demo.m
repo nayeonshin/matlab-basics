@@ -13,10 +13,10 @@ y3 = .5*y + .5*y2;
 % y3 = (A' * A)^-1 * A' * y2;
 % y3 = A * y3;
 
-%song = audioplayer(y,Fs);
+% song = audioplayer(y,Fs);
 
-%song = audioplayer(y1,Fs1);
-%song = audioplayer(y2,Fs2);
+% song = audioplayer(y1,Fs1);
+% song = audioplayer(y2,Fs2);
 song = audioplayer(y3,Fs2);
 
 play(song)
